@@ -1,8 +1,8 @@
-package caseB;
+package taskD;
 
 import java.time.LocalDate;
 
-public class DeptEmployee{
+public class DeptEmployee {
 	private String name;
 	private double salary;
 	private LocalDate hireDate;

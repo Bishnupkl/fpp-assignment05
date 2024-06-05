@@ -1,8 +1,6 @@
-package caseD;
+package taskE;
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.Comparator;
-
 
 public class DeptEmployeeData {
 
@@ -19,21 +17,10 @@ public class DeptEmployeeData {
 	}
 
 	public static void main(String[] args) {
-		DeptEmployeeData ded = new DeptEmployeeData();
 		DeptEmployee[] department = getDeptData();
 		System.out.println("Before sorting:" +Arrays.toString(department));
-		ded.sortReverse(department);
+		Arrays.sort(department, (op1, op2) -> op2.getName().compareTo(op1.getName()));
 		System.out.println("After sorting (DESC):" +Arrays.toString(department));
-	}
-
-	private void sortReverse(DeptEmployee[] department) {
-		class NameComparator implements Comparator<DeptEmployee> {
-			@Override
-			public int compare(DeptEmployee o1, DeptEmployee o2) {
-				return o2.getName().compareTo(o1.getName());
-			}
-		}
-		Arrays.sort(department, new NameComparator());
 	}
 
 }

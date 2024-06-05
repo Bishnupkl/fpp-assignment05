@@ -1,4 +1,4 @@
-package caseB;
+package taskB;
 
 import java.time.LocalDate;
 
