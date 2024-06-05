@@ -1,7 +1,6 @@
-package hwsort.taska;
+package caseB;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Professor extends DeptEmployee {
 

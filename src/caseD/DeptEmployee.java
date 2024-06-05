@@ -1,7 +1,7 @@
-package hwsort.taska;
+package caseD;
 
 import java.time.LocalDate;
-import java.util.Date;
+
 public class DeptEmployee {
 	private String name;
 	private double salary;

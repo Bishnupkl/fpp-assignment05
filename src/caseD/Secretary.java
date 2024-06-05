@@ -1,7 +1,6 @@
-package hwsort.taska;
+package caseD;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Secretary extends DeptEmployee {
 	private double netSalary;
